@@ -55,7 +55,7 @@ Desde sua concepção em 2005, o Git evoluiu e amadureceu a ponto de ser um sist
 
 ## Git Básico ##
 
-Enfim, rapidamente, o que é o Git? Essa é uma seção importante para assimiliar, pois se você entender o que é o Git e os fundamentos de como ele funciona, provavelmente será muito mais fácil utilizá-lo com eficiência. À medida que você aprende a usar o Git, tente não pensar no que você já sabe sobre outros VCS como Subversion e Perforce; assim você consegue escapar de pequenas confusões que podem surgir ao usar a ferramenta. Apesar de possuir uma interface parecida, o Git armazena e pensa sobre informação de uma forma totalmente diferente desses outros sistemas; entender essas diferenças te ajudará a não ficar confuso ao utilizar o Git.
+Então, em poucas palavras, o que é o Git? Essa é uma seção importante para assimiliar, pois se você entender o que é o Git e os fundamentos de como ele funciona, provavelmente será muito mais fácil utilizá-lo com eficiência. À medida que você aprende a usar o Git, tente não pensar no que você já sabe sobre outros VCS como Subversion e Perforce; assim você consegue escapar de pequenas confusões que podem surgir ao usar a ferramenta. Apesar de possuir uma interface parecida, o Git armazena e pensa sobre informação de uma forma totalmente diferente desses outros sistemas; entender essas diferenças te ajudará a não ficar confuso ao utilizar o Git.
 
 ### Capturas Instantâneas, ao invés de diferenças  ###
 
@@ -124,9 +124,9 @@ Vamos entender como utilizar o Git. Primeiramente você deve instalá-lo. Você 
 
 ### Instalando a Partir do Fonte ###
 
-Caso você possa, é geralmente mais útil instalar o Git a partir do fonte, porque será obtida a versão mais recente. Cada versão do Git tende a incluir melhoras na UI, sendo assim, obter a última versão é, em geral, a melhor forma caso você sinta-se confortável em compilar o código a partir do fonte. É também o caso para diversas distribuições Linux que contêm pacotes muito antigos; sendo assim, a não ser que você tenha uma distro muito atualizada ou está utilizando backports, instalar a partir do fonte pode ser a melhor aposta.
+Caso você possa, é geralmente mais útil instalar o Git a partir do fonte, porque será obtida a versão mais recente. Cada versão do Git tende a incluir melhorias na interface com o usuário, sendo assim, obter a última versão é, em geral, a melhor forma caso você sinta-se confortável em compilar o código a partir do fonte. É também o caso para diversas distribuições Linux que contêm pacotes muito antigos; sendo assim, a não ser que você tenha uma distro muito atualizada ou está utilizando backports, instalar a partir do fonte pode ser a melhor aposta.
 
-Para instalar o Git, você precisa ter as seguintes bibliotecas que o Git depende: curl, zlib, openssl, expat e libiconv. Por exemplo, se você um sistema que tem yum (tal como o Fedora) ou apt-get (tais como os sistemas baseados no Debian), você pode utlizar um desses comandos para instalar todas as dependências:
+Para instalar o Git, você precisa ter as seguintes bibliotecas que o Git depende: curl, zlib, openssl, expat e libiconv. Por exemplo, se você está em um sistema que tem yum (tal como o Fedora) ou apt-get (tais como os sistemas baseados no Debian), você pode utlizar um desses comandos para instalar todas as dependências:
 
 	$ yum install curl-devel expat-devel gettext-devel \
 	  openssl-devel zlib-devel
